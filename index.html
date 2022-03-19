@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G.H.Speedy</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .container {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+      }
+
+      section {
+        padding: 112px;
+        height: calc(100vh - 224px);
+        scroll-snap-align: start;
+      }
+
+      section h3 {
+        font-size: 48px;
+      }
+
+      section p {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <img src="./logo.svg" width="100%" height="100%" alt="">
+      </section>
+      <section>
+        <h3>About us</h3>
+        <p>
+            We are freelance developers. <br/>
+            We want to use our free time to make an interesting application.<br/>
+            We may take a long time to complete this work.<br/>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
